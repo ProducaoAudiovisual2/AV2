@@ -1,0 +1,106 @@
+body {
+  padding: 50px 0 20px;
+}
+.navbar {
+    background: #222;
+    background: -webkit-linear-gradient(#555, #222); 
+    background: -o-linear-gradient(#555, #222); 
+    background: -moz-linear-gradient(#555, #222); 
+    background: linear-gradient(#555, #222);
+}
+.titulo-secao {
+    height: 120px;
+}
+.destaque {
+	min-height: 350px;
+	vertical-align: bottom;
+	background-image: url("../img/destaque.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	padding: 20px 0;
+	border-bottom: 3px solid #ddd;
+	-webkit-box-shadow: inset 0px -5px 25px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px -5px 25px 0px rgba(0,0,0,0.75);
+	box-shadow: inset 0px -5px 25px 0px rgba(0,0,0,0.75);
+}
+.destaque h1 {
+	color: #fff;
+	margin: 235px 0 0;
+	text-shadow: 2px 2px 0px #000;
+}
+.conteudo p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.foto {
+	height: 200px;
+	text-align: center;
+	margin: 20px 0;
+}
+.container-img {
+	width: 100%;
+	height: 100%;
+    cursor: pointer;
+	overflow: hidden;
+	background-color: #d4d4d4;
+}
+.foto img {
+	width: 100%;
+	height: auto;
+    min-width: 300px;
+	display: inline-block;
+}
+.modal .fechar {
+	top: 0;
+	right: 0;
+	color: #000;
+	opacity: 0.8;
+	cursor: pointer;
+	font-weight: bold;
+	position: absolute;
+	background-color: #fff;
+	padding: 0.6rem 1.2rem;
+}
+.modal .fechar:hover {
+	opacity: 1;
+}
+.modal img {
+	max-width: 100%;
+}
+.modal .texto {
+    padding: 2rem;
+    position: relative;
+}
+.modal .texto h3 {
+    top: -6rem;
+    color: #fff;
+    font-size: 3rem;
+    position: absolute;
+    text-shadow: 2px 2px 0px #000;    
+}
+.modal .texto h3 span {
+    font-size: 0.5em;
+}
+.modal .texto p:last-child {
+    margin-bottom: 0;
+}
+.integrante-container {
+    background: #f9f9f9;
+    border: 1px solid #efefef;
+    margin-bottom: 20px;
+}    
+.integrantes img {
+    height: auto;
+    max-width: 100px;
+}
+.integrantes img, 
+.integrantes img + p {
+    display: inline-block;
+}
+@media (max-width:650px) {
+    .destaque {
+        background-size: auto 100%;
+		background-image: url("../img/destaque-sm.jpg");
+    }
+}

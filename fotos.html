@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Av2 - Audiovisual II</title>
+
+	<!-- BOOTSTRAP -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	
+	<!-- CUSTOMIZAÇÃO -->
+	<link rel="stylesheet" href="css/estilo.css">
+
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Navegação</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Descrição</a></li>
+            <li class="active"><a href="#">Fotos</a></li>
+            <li><a href="integrantes.html">Integrantes</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container conteudo">
+    	<div class="col-xs-12 titulo-secao">
+	    	<h1>Galeria de Fotos</h1>
+	    	<p>Cada um dos integrantes descreveu o conceito representado em suas fotos, de acordo com o tema escolhido.</p>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-lg-3 foto media-middle">
+            <div class="container-img" data-toggle="modal" data-target="#Foto1">
+                <img src="img/img1.jpg" />
+            </div>
+        </div>
+		<div class="col-xs-12 col-sm-6 col-lg-3 foto media-middle">
+            <div class="container-img" data-toggle="modal" data-target="#Foto2">
+                <img src="img/img2.jpg" />
+            </div>
+        </div>
+		<div class="col-xs-12 col-sm-6 col-lg-3 foto media-middle">
+            <div class="container-img" data-toggle="modal" data-target="#Foto3">
+                <img src="img/img3.jpg" />
+            </div>
+        </div>
+		<div class="col-xs-12 col-sm-6 col-lg-3 foto media-middle">
+            <div class="container-img" data-toggle="modal" data-target="#Foto4">
+                <img src="img/img4.jpg" />
+            </div>
+        </div>
+    </div>
+
+	<div class="modal fade" id="Foto1" role="dialog">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<span class="fechar" data-dismiss="modal">X</span>
+				<img src="img/img1.jpg"/>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="Foto2" role="dialog">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<span class="fechar" data-dismiss="modal">X</span>
+                <img src="img/img2.jpg"/>
+                <div class="texto">
+                    <h3>Bullying <span>por Emily Mutti</span></h3>
+                    <p>Nesta foto eu senti que deveria retratar uma das coisas que mais marcou em minha infância: o bullying.</p>
+                    <p>A menina com a cabeça baixa representa a que sofre e, a que é excluída pelos outros. Eu sofri com isso quando era pequena; o cenário era exatamente este: não me sentia à vontade, vivia acuada e sentia-me excluída. </p>
+                    <p>As duas outras que participam da cena, são justamente as que falam mal e causam intrigas. A postura delas é diferente da que se sente diminuída: estão sempre mais a vontade para falar uma com a outra, porque sentem que tem poder e espaço.</p>
+                </div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="Foto3" role="dialog">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<span class="fechar" data-dismiss="modal">X</span>
+				<img src="img/img3.jpg"/>
+                <div class="texto">
+                    <h3>Estúdio <span>por Fabio Comodo</span></h3>
+                    <p>Quis retratar através desta imagem o que vejo ferquentemente no ambiente profissional: a dedicação e trabalho de muitos para representação da perfeição.</p>
+                    <p>Como melhor exemplo posso citar o ramo publicitário, que em uma fotografia para uma anúncio, seja para o meio impresso ou digital, quase sempre torna-se necessária a mobilização de uma grande equipe para a captura do momento e condições perfeitas.</p>
+                    <p></p>
+                </div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="Foto4" role="dialog">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<img src="img/img4.jpg"/>
+				<span class="fechar" data-dismiss="modal">X</span>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="Foto5" role="dialog">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<img src="img/img5.jpg"/>
+				<span class="fechar" data-dismiss="modal">X</span>
+			</div>
+		</div>
+	</div>
+
+    <!-- JQUERY -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	<!-- BOOTSTRAP -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+</html>
